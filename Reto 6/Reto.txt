@@ -1,0 +1,20 @@
+Reto 06 - Backtracking para encontrar soluciones
+
+En este reto diseñarás un algoritmo para encontrar un camino único en una matriz que representa un laberinto, aplicando estrategias de resolución algorítmica como Dividir y Vencerás, fuerza bruta o BackTracking.
+
+
+📌 Descripción del problema
+Imagina un tablero representado como una matriz de tamaño MxN, e ingresado por el usuario, donde:
+
+La casilla inicial es siempre la esquina superior izquierda: (0,0).
+La casilla objetivo es la esquina inferior derecha: (M-1, N-1).
+Cada casilla puede ser:
+0 → Espacio libre (puede moverse a él).
+1 → Obstáculo o pared (no se puede atravesar).
+🔴 En este caso, la matriz estará configurada de tal forma que exista un único camino posible para llegar desde la casilla inicial hasta la final.
+
+No puede haber caminos alternativos.
+No pueden existir bucles o ciclos.
+⚠️ Requisito fundamental:
+
+El algoritmo debe mostrar todas las casillas visitadas en orden, incluso si en algún momento debe devolverse o retroceder. Cada casilla recorrida debe imprimirse de manera explícita (por ejemplo: (0,0) → (0,1) → (1,1) ...).
